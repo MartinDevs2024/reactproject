@@ -49,6 +49,18 @@ h1 {
   color: #fff;
 }
 
+.todo-update-input {
+  width: 100%;
+  border: 1px solid #8758ff;
+  outline: none;
+  background: #3216cc;
+  padding: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #fff;
+ 
+}
+
 .todo-input::placeholder {
   color: white;
   border: none;
@@ -59,6 +71,16 @@ h1 {
 
 .todo-btn {
   background: #ff5945;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+
+.todo-update-btn {
+  background: #da1515;
   color: #fff;
   border: none;
   width: 100%;
